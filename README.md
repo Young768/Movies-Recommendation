@@ -75,20 +75,18 @@ The input for the calculation should be vector [4,8] and vector [9, 10]. And put
 
 I will sort  the  output  by  similarity  metric  and output top K=100 movies that users likely to watch in decreasing order.
 Here is the output for movies Barenaked in America:
-The output is:
-you should output:
-The name of the movie for which we want;
-The name of a recommended movie.
-The similarity they share
-The statistical correlation that these two movies share.
-The cosine correlation that these two movies share.
-The number of ratings this pair of movies had in common.
+The output for each line is:  
+`The name of the movie for which we want`;  
+`The name of a recommended movie`;  
+`The similarity they share`;  
+`The statistical correlation that these two movies share`;  
+`The cosine correlation that these two movies share`;  
+`The number of ratings this pair of movies had in common`.
 
 
 7. Reference:
 ------- 
-[1]Movie Recommendations and More via MapReduce andScalding
-http://blog.echen.me/2012/02/09/movie-recommendations-and-more-via-mapreduce-and-scalding/  
+[1]Movie Recommendations and More via MapReduce andScalding http://blog.echen.me/2012/02/09/movie-recommendations-and-more-via-mapreduce-and-scalding/  
 [2]MovieLens: https://grouplens.org/datasets/movielens/  
 [3] Correlation and dependence https://en.wikipedia.org/wiki/Correlation_and_dependence  
 [4] Cosine similarity https://en.wikipedia.org/wiki/Cosine_similarity  
