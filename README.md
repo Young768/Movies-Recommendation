@@ -40,7 +40,7 @@ This project will use Pearson correlation coefficient [3].
 This program will combine them into a  single similarity value. I will blend the values  together, using 50% of  each.  That  is, the final  value  for  a   pair  of movies  is    0.5  *   statistical  correlation  +   0.5  * the  cosine  correlation  for  the  pair. Based on this criterion, we can recommend what the user should watch. 
 
 4. Steps
-------- 
+-----
 This program will implement a sequence of Map/Reduce tasks. Here is the sequence of setps:
 1. Join the input files.
 For the input files (ratings.dat  and  movies.dat). I’ll get most of the important information from ratings.dat. But it only has movie IDs rather than movies names. I will implement the Reducer’s output to be key:user_id, value:(movie_name,rating).
@@ -61,7 +61,7 @@ Key: (Anchorman, The Godfather) Values: (8, 10)
 The keys are in alphabetical order.
 
 5.Compute the similarity
-------- 
+---
 Before computing the movies similarity, I will organize the values for each key. For example, Movies with key “Anchorman” and “The Godfather” has 2 value:(4, 9) and (8, 10).
 The input for the calculation should be vector [4,8] and vector [9, 10]. And put these two vector into Cosine similarity correlation calculation.
 
