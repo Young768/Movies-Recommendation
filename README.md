@@ -88,9 +88,7 @@ The number of ratings this pair of movies had in common.
 7. Reference:
 ------- 
 [1]Movie Recommendations and More via MapReduce andScalding
-http://blog.echen.me/2012/02/09/movie-recommendations-and-more-via-mapreduce-and-scalding/
-[2]MovieLens: https://grouplens.org/datasets/movielens/
-
-[3] Correlation and dependence https://en.wikipedia.org/wiki/Correlation_and_dependence
-[4] Cosine similarity
-https://en.wikipedia.org/wiki/Cosine_similarity
+http://blog.echen.me/2012/02/09/movie-recommendations-and-more-via-mapreduce-and-scalding/  
+[2]MovieLens: https://grouplens.org/datasets/movielens/  
+[3] Correlation and dependence https://en.wikipedia.org/wiki/Correlation_and_dependence  
+[4] Cosine similarity https://en.wikipedia.org/wiki/Cosine_similarity  
