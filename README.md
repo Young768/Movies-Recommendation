@@ -1,4 +1,5 @@
-
+Movies Recommendation Project Report
+====
 1. Introduction
 In this project, I will process a large corpus of movie ratings for providing recommendations. The program will help us decide what to watch on Netflix tonight. For each pair of movies in the dataset, I will compute their statistical correlation and cosine similarity [1]. Based on this criteria, we should provide good recommendation.
 
