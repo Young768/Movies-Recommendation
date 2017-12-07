@@ -48,16 +48,16 @@ For the input files (ratings.dat  and  movies.dat). I’ll get most of the impor
 2. Pair the movie ratings
 This step should organize the movies into pairs. For example, for each user, the pairs will be two movies. This output vector will be used to compute the similarity later.
 Here is a concrete example:
-A rated Almost Famous a 10, The Godfather a 9, and Anchorman a 4. 
-B rated  Almost Famous a 7 and Anchorman a 10. 
-C rated The Godfather a 10 and Anchorman an 8. 
+`A` rated `Almost Famous` a `10`, `The Godfather` a `9`, and `Anchorman` a `4`. 
+`B` rated  `Almost Famous` a `7` and `Anchorman` a `10`. 
+`C` rated `The Godfather` a `10` and `Anchorman` an `8`. 
 
-Here is the output (key, value) store:
-Key: (Almost Famous, The Godfather) Values: (10, 9) 
-Key: (Almost Famous, Anchorman) Values: (10, 4)
-Key: (Almost Famous, Anchorman) Values: (7, 10) 
-Key: (Anchorman, The Godfather) Values: (4, 9)
-Key: (Anchorman, The Godfather) Values: (8, 10) 
+Here is the output (key, value) store:  
+Key: `(Almost Famous, The Godfather)` Values: `(10, 9)`   
+Key: `(Almost Famous, Anchorman)` Values: `(10, 4)`  
+Key: `(Almost Famous, Anchorman)` Values: `(7, 10)`   
+Key: `(Anchorman, The Godfather)` Values: `(4, 9)`  
+Key: `(Anchorman, The Godfather)` Values: `(8, 10)`   
 The keys are in alphabetical order.
 
 5. Compute the similarity
