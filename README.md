@@ -60,8 +60,8 @@ Key: (Anchorman, The Godfather) Values: (4, 9)
 Key: (Anchorman, The Godfather) Values: (8, 10) 
 The keys are in alphabetical order.
 
-5.Compute the similarity
----
+5. Compute the similarity
+------- 
 Before computing the movies similarity, I will organize the values for each key. For example, Movies with key “Anchorman” and “The Godfather” has 2 value:(4, 9) and (8, 10).
 The input for the calculation should be vector [4,8] and vector [9, 10]. And put these two vector into Cosine similarity correlation calculation.
 
@@ -70,7 +70,7 @@ The input for the calculation should be vector [4,8] and vector [9, 10]. And put
 
 
  
-4. Output
+6. Output
 ------- 
 
 I will sort  the  output  by  similarity  metric  and output top K=100 movies that users likely to watch in decreasing order.
@@ -85,7 +85,7 @@ The cosine correlation that these two movies share.
 The number of ratings this pair of movies had in common.
 
 
-5. Reference:
+7. Reference:
 ------- 
 [1]Movie Recommendations and More via MapReduce andScalding
 http://blog.echen.me/2012/02/09/movie-recommendations-and-more-via-mapreduce-and-scalding/
