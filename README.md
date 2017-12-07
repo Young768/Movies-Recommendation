@@ -62,8 +62,9 @@ The keys are in alphabetical order.
 
 5. Compute the similarity
 ------- 
-Before computing the movies similarity, I will organize the values for each key. For example, Movies with key “Anchorman” and “The Godfather” has 2 value:(4, 9) and (8, 10).
-The input for the calculation should be vector [4,8] and vector [9, 10]. And put these two vector into Cosine similarity correlation calculation.
+Before computing the movies similarity, I will organize the values for each key.  
+For example, Movies with key “`Anchorman`” and “`The Godfather`” has 2 value:`(4, 9)` and `(8, 10)`.  
+The input for the calculation should be vector `[4,8]` and vector `[9, 10]`. And put these two vector into Cosine similarity correlation calculation.
 
 
 
