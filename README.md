@@ -1,9 +1,11 @@
 Movies Recommendation Project Report
 ====
 1. Introduction
+------- 
 In this project, I will process a large corpus of movie ratings for providing recommendations. The program will help us decide what to watch on Netflix tonight. For each pair of movies in the dataset, I will compute their statistical correlation and cosine similarity [1]. Based on this criteria, we should provide good recommendation.
 
 2. Dataset
+------- 
 The dataset are from MovieLens [2]. GroupLens Research has collected and made available
 rating data sets on the MovieLens web site. The data sets were collected over various periods of
 time, depending on the size of the set. This project will use 11 million computed tag-movie
@@ -22,6 +24,7 @@ UserID,MovieID,Rating,:Timestamp
 374,0181875,9,1374863640
 
 3. Definition
+------- 
 Cosine similarity is a measure of similarity between two non-zero vectors of an inner product space that measures the cosine of the angle between them [4].
  
 
@@ -37,6 +40,7 @@ This project will use Pearson correlation coefficient [3].
 This program will combine them into a  single similarity value. I will blend the values  together, using 50% of  each.  That  is, the final  value  for  a   pair  of movies  is    0.5  *   statistical  correlation  +   0.5  * the  cosine  correlation  for  the  pair. Based on this criterion, we can recommend what the user should watch. 
 
 4. Steps
+------- 
 This program will implement a sequence of Map/Reduce tasks. Here is the sequence of setps:
 1. Join the input files.
 For the input files (ratings.dat  and  movies.dat). I’ll get most of the important information from ratings.dat. But it only has movie IDs rather than movies names. I will implement the Reducer’s output to be key:user_id, value:(movie_name,rating).
@@ -56,7 +60,8 @@ Key: (Anchorman, The Godfather) Values: (4, 9)
 Key: (Anchorman, The Godfather) Values: (8, 10) 
 The keys are in alphabetical order.
 
-3.Compute the similarity
+5.Compute the similarity
+------- 
 Before computing the movies similarity, I will organize the values for each key. For example, Movies with key “Anchorman” and “The Godfather” has 2 value:(4, 9) and (8, 10).
 The input for the calculation should be vector [4,8] and vector [9, 10]. And put these two vector into Cosine similarity correlation calculation.
 
@@ -66,6 +71,7 @@ The input for the calculation should be vector [4,8] and vector [9, 10]. And put
 
  
 4. Output
+------- 
 
 I will sort  the  output  by  similarity  metric  and output top K=100 movies that users likely to watch in decreasing order.
 Here is the output for movies Barenaked in America:
@@ -79,7 +85,8 @@ The cosine correlation that these two movies share.
 The number of ratings this pair of movies had in common.
 
 
-Reference:
+5. Reference:
+------- 
 [1]Movie Recommendations and More via MapReduce andScalding
 http://blog.echen.me/2012/02/09/movie-recommendations-and-more-via-mapreduce-and-scalding/
 [2]MovieLens: https://grouplens.org/datasets/movielens/
