@@ -14,14 +14,14 @@ relevance scores from a pool of 1,100 tags applied to 10,000 movies. Released on
 For both data sets, there are two input files:
 movies.dat contains identification and genre information for each movie.
 Lines are of the form:  
-MovieID,Movie Title,Genre  
-0068646,The Godfather (1972),Crime|Drama  
-0181875,Almost Famous (2000),Drama|Music  
+`MovieID`,`Movie Title`,`Genre`  
+`0068646`,`The Godfather (1972)`,`Crime|Drama`  
+`0181875`,`Almost Famous (2000)`,`Drama|Music`  
 ratings.dat contains a series of individual user movie ratings.
 Lines are of the form:  
-UserID,MovieID,Rating,:Timestamp  
-120,0068646,10,1365448727  
-374,0181875,9,1374863640  
+`UserID`,`MovieID`,`Rating`,`Timestamp`  
+`120`,`0068646`,`10`,`1365448727`  
+`374`,`0181875`,`9`,`1374863640`  
 
 3. Definition
 ------- 
