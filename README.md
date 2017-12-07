@@ -25,17 +25,10 @@ Lines are of the form:
 
 3. Definition
 ------- 
-Cosine similarity is a measure of similarity between two non-zero vectors of an inner product space that measures the cosine of the angle between them [4].
- 
-
-
-
+Cosine similarity is a measure of similarity between two non-zero vectors of an inner product space that measures the cosine of the angle between them [4].  
+![]https://github.com/Young768/Movies-Recommendation/blob/master/cos.png  
 Correlations are useful because they can indicate a predictive relationship. 
-This project will use Pearson correlation coefficient [3].
-
-
-
-
+This project will use Pearson correlation coefficient [3].  
 
 This program will combine them into a  single similarity value. I will blend the values  together, using 50% of  each.  That  is, the final  value  for  a   pair  of movies  is    0.5  *   statistical  correlation  +   0.5  * the  cosine  correlation  for  the  pair. Based on this criterion, we can recommend what the user should watch. 
 
