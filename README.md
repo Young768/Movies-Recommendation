@@ -26,7 +26,7 @@ Lines are of the form:
 3. Definition
 ------- 
 Cosine similarity is a measure of similarity between two non-zero vectors of an inner product space that measures the cosine of the angle between them [4].  
-<div align=center> ![](https://github.com/Young768/Movies-Recommendation/blob/master/cos.png)</div>  
+![](https://github.com/Young768/Movies-Recommendation/blob/master/cos.png) 
 Correlations are useful because they can indicate a predictive relationship. 
 This project will use Pearson correlation coefficient [3].  
 ![](https://github.com/Young768/Movies-Recommendation/blob/master/corre.png)  
