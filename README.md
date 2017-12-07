@@ -43,11 +43,12 @@ This program will combine them into a  single similarity value. I will blend the
 -----
 This program will implement a sequence of Map/Reduce tasks. Here is the sequence of setps:
 1. Join the input files.
-For the input files (ratings.dat  and  movies.dat). I’ll get most of the important information from ratings.dat. But it only has movie IDs rather than movies names. I will implement the Reducer’s output to be key:user_id, value:(movie_name,rating).
+For the input files (ratings.dat  and  movies.dat). I’ll get most of the important information from ratings.dat. But it only has movie IDs rather than movies names. I will implement the Reducer’s output to be  
+key:`user_id`, value:`(movie_name,rating)`.
 
 2. Pair the movie ratings
 This step should organize the movies into pairs. For example, for each user, the pairs will be two movies. This output vector will be used to compute the similarity later.
-Here is a concrete example:
+Here is a concrete example:  
 `A` rated `Almost Famous` a `10`, `The Godfather` a `9`, and `Anchorman` a `4`. 
 `B` rated  `Almost Famous` a `7` and `Anchorman` a `10`. 
 `C` rated `The Godfather` a `10` and `Anchorman` an `8`. 
