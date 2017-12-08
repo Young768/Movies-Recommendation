@@ -40,7 +40,7 @@ For the input files (ratings.dat  and  movies.dat). I’ll get most of the impor
 key:`user_id`, value:`(movie_name,rating)`.
 
 2. Pair the movie ratings
-This step should organize the movies into pairs. For example, for each user, the pairs will be two movies. This output vector will be used to compute the similarity later.
+This step should organize the movies into pairs. For example, for each user, the pairs will be two movies. The number of pairs fpr each user is decided by the number of combination. This output vector will be used to compute the similarity later.
 Here is a concrete example:  
 `A` rated `Almost Famous` a `10`, `The Godfather` a `9`, and `Anchorman` a `4`. 
 `B` rated  `Almost Famous` a `7` and `Anchorman` a `10`. 
