@@ -32,7 +32,7 @@ This project will use Pearson correlation coefficient [3]. The calculation is as
 ![](https://github.com/Young768/Movies-Recommendation/blob/master/corre.png)  
 This program will combine them into a  single similarity value. I will blend the values  together, using 50% of  each.  That  is, the final  value  for  a   pair  of movies  is    0.5  *   statistical  correlation  +   0.5  * the  cosine  correlation  for  the  pair. Based on this criterion, we can recommend what the user should watch. 
 
-4. Steps
+4. Process Data
 -----
 This program will implement a sequence of Map/Reduce tasks. Here is the sequence of setps:
 1. Join the input files.
