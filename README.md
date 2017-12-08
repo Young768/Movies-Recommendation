@@ -69,7 +69,7 @@ The input for the calculation should be vector `[4,8]` and vector `[9, 10]`. And
 ------- 
 
 I will sort  the  output  by  similarity  metric  and output top K=100 movies that users likely to watch in decreasing order.
-Here is the output for movies Barenaked in America:
+Here is the example output for movies:
 ![](https://github.com/Young768/Movies-Recommendation/blob/master/Screenshot%20from%202017-12-04%2017-47-11.png)
 The output for each line is:  
 The name of the movie for which we want;  
