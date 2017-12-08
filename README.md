@@ -52,7 +52,7 @@ Key: `(Almost Famous, Anchorman)` Values: `(10, 4)`
 Key: `(Almost Famous, Anchorman)` Values: `(7, 10)`   
 Key: `(Anchorman, The Godfather)` Values: `(4, 9)`  
 Key: `(Anchorman, The Godfather)` Values: `(8, 10)`   
-The keys are in alphabetical order.
+The keys are in alphabetical order to ensure the data consistency.
 
 5. Compute the similarity
 ------- 
