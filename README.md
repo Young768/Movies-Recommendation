@@ -72,12 +72,12 @@ I will sort  the  output  by  similarity  metric  and output top K=100 movies th
 Here is the output for movies Barenaked in America:
 ![](https://github.com/Young768/Movies-Recommendation/blob/master/Screenshot%20from%202017-12-04%2017-47-11.png)
 The output for each line is:  
-`The name of the movie for which we want`;  
-`The name of a recommended movie`;  
-`The similarity they share`;  
-`The statistical correlation that these two movies share`;  
-`The cosine correlation that these two movies share`;  
-`The number of ratings this pair of movies had in common`.
+The name of the movie for which we want;  
+`item_y`: The name of a recommended movie;  
+`item_sim`: The similarity they share;  
+`cos_sim`: The statistical correlation that these two movies share;  
+`corr_sim`: The cosine correlation that these two movies share;  
+`n`: The number of ratings this pair of movies had in common.
 
 
 7. Reference:
